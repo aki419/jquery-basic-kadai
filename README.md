@@ -1,17 +1,22 @@
 # プログラミング学習記録
 
 ## 昨日やったこと
-- Git の使い方を確認した
-- README.md の書き方を学んだ
-
-## 今日やること
-- GitHub にアップロード
-- VSCode でコードを追加
+- 指定要素をフェードイン・フェードアウトさせること(jQury)
+- GitHub にアップロード(READMEとその他)
 - Google アナリティクスを調べる
 
+
+## 今日やること
+- Google アナリティクスのレッスン
+- jQueryの学習
+- GitHubにアップロード方法を復習
+
 ## メモ
-Markdown 記法
-- `##` は中見出し
-- `#` は大見出し
-- 「-」や「*」「+」 は、箇条書きリスト
-- ``` （バッククォート3つ）は コードブロック
+- fadeOut()・fadeIn()・fadeToggle()メソッドの書き方
+$(セレクタ).fadeIn(スピード, コールバック関数);
+- GitHub 上に出ちゃった直前のコミットを消す手順
+①git reset --soft HEAD~1
+②git push origin main --force
+-  Google Skillshop（スキルショップ）
+URL: https://skillshop.docebosaas.com/
+
