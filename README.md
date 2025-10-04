@@ -1,22 +1,23 @@
 # プログラミング学習記録
 
 ## 昨日やったこと
-- 指定要素をフェードイン・フェードアウトさせること(jQury)
-- GitHub にアップロード(READMEとその他)
-- Google アナリティクスを調べる
+- jQueryの学習（css()メソッド）
+- GitHubにアップロード方法を復習
 
 
 ## 今日やること
 - Google アナリティクスのレッスン
 - jQueryの学習
-- GitHubにアップロード方法を復習
+- ChatGPTsのYoutube動画を見て学習
+
 
 ## メモ
-- fadeOut()・fadeIn()・fadeToggle()メソッドの書き方
-$(セレクタ).fadeIn(スピード, コールバック関数);
-- GitHub 上に出ちゃった直前のコミットを消す手順
-①git reset --soft HEAD~1
-②git push origin main --force
--  Google Skillshop（スキルショップ）
-URL: https://skillshop.docebosaas.com/
+- jQuey
+css()メソッドで不透明度（opacity）を0にする→fadeOut
+css()メソッドで不透明度（opacity）を1にする→fadeIn
+css()メソッドで高さ（height）を0にする→slideUp
+css()メソッドで高さ（height）を200にする→slideDown
 
+- CSS の transition プロパティ
+変化をなめらかにアニメーションさせるための設定
+「transition: プロパティ名 時間 イージング 遅延;」
