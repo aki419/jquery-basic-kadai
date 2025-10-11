@@ -1,35 +1,35 @@
-# プログラミング学習記録　２０２５/10/08（水）
+# プログラミング学習記録　２０２５/10/11（土）
 
 ## 昨日やったこと
-- 
-
+- エラーの解消（slickというjQueryのプラグインを利用してカルーセルを作成する準備）
 
 ## 今日やること
 - Google アナリティクスのレッスン
-- jQueryの学習
-- ChatGPTsのYoutube動画を見て学習
-
+- jQueryの学習(カルーセルに画像を追加)
 
 ## 明日やること
--　HTML/CSS/jQueryの模写コーディングする
--
--
-
-
-
+-　jQuryの学習（お問い合わせフォームの入力チェック）
+- ChatGPTsのYoutube動画を見て学習
 
 ## メモ
-- 「＼」バックスラッシュ（\）→「option」と「￥」を押す
-- 「／」スラッシュ(/)→「option」と「？」を押す
+- slickをCDNで読み込む準備として...
+実際にSlickを動かすには、次のコードの読み込みが必要です
+〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜
+HTMLの <head> に次の2つを入れる
+<!-- slickのCSS（デザイン） -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
-- command+?を押す→コメントアウト
+ <body> の下部に次の3つを入れる
+<!-- jQuery（Slickが使う） -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-- アニメーションの再生スピード：1秒＝1000
-(例)
-100を指定し、0.1秒間で再生する（再生スピードは1000分の1秒単位で設定する。）
+<!-- slick本体のJavaScript -->
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-- mouseoverとmouseoutでマウスオーバーとマウスアウトのイベント処理を実行できる
+<!-- 自作のjsフォルダ -->
+<script src="script.js"></script>
+〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜
 
-- marginLeftで左側に余白を追加することでHTML要素を右に移動させられる
+- カルーセルの幅や余白はCSSで調整できる
 
-- opacityでHTML要素の不透明度を設定できる
