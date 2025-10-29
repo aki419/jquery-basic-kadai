@@ -1,24 +1,33 @@
-# プログラミング学習記録　2025/10/28（火）
+# プログラミング学習記録　2025/10/29（水）
 
 ## 昨日やったこと
-- WordPressで美容室サイトをノーコードで作る（フッターを作る）
-
+- WordPressで美容室サイトをノーコードで作る（仕上げ）
+- PHP基礎学習（環境構築/MAMP/VSコード）
+  
 ## 今日やること
-- WordPressで美容室サイトをノーコードで作る（続き）
-- PHP基礎学習
+- PHP基礎学習（続き）
   
 ## 明日やること
 - PHP基礎学習（続き）
 
 ## メモ
-- PHPの実行に必要な環境
+- PHPファイルの作成場所
+XAMPP（Windows）：C:\xampp\htdocs\php-basic
+MAMP（Mac）：/Applications/MAMP/htdocs/php-basic
 
-PHP：PHPで書かれたプログラムを実行するソフトウェア（プログラミング言語としてのPHPとは異なる）
-Webサーバー：ブラウザからの要求に応じてPHPプログラムの実行結果やHTML/CSSファイルなどを返すサーバー
-データベース：ユーザーの個人情報など、あとから検索しやすいように整理されたデータの集まり。また、それを管理するシステムのこと
+- PHPの書き方の基本ルール
+PHPタグ（<?php ～ ?>）の中にコードを書く
+文末にセミコロンをつける
+1行コメントは行頭に//、複数行コメントは/*と*/で囲む
 
--「PHP」という言葉には以下2つの意味がある
-プログラミング言語としての「PHP」
-PHPで書かれたプログラムを実行するソフトウェアとしての「PHP」
+- Webサーバーを起動したあと以下のURLにアクセスすれば、php-basicフォルダ内の各ファイルをブラウザで表示できる
+XAMPP（Windows）：localhost/php-basic/ファイル名
+MAMP（Mac）：localhost:8888/php-basic/ファイル名
 
-- Visual Studio CodeにPHPの実行ファイルの場所を教えるため、settings.jsonにパスを設定する必要がある
+- コメントアウトのショートカット
+command+/
+
+- シングルクォーテーションはWindows、Macともに「shift + 7」で入力できる
+  
+- PHPマニュアル
+https://www.php.net/manual/ja/index.php
